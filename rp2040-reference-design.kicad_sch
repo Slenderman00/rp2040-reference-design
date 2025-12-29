@@ -6907,6 +6907,28 @@
 			)
 		)
 	)
+	(global_label "TX"
+		(shape input)
+		(at 93.98 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7dcc1fa-ddae-4c92-b879-963ff0151d3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.1423 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DVDD"
 		(shape input)
 		(at 143.51 113.03 270)
@@ -6991,6 +7013,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX"
+		(shape input)
+		(at 93.98 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d338fda8-31e5-4992-8ec7-f240de375624")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.4447 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
