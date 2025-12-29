@@ -6973,28 +6973,6 @@
 			)
 		)
 	)
-	(global_label "vRef"
-		(shape input)
-		(at 151.13 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cf17f492-4fc5-494c-bfc1-55cdf106785e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.1671 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SWDCLK"
 		(shape input)
 		(at 138.43 41.91 180)
@@ -11786,6 +11764,71 @@
 			(project "rp2040-reference-design"
 				(path "/d9eb9251-8b4f-4594-87db-d1b592086b55"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 151.13 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6fa9b86-7af8-46d7-b683-300241dd04bb")
+		(property "Reference" "#PWR039"
+			(at 147.32 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 156.21 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 151.13 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb11f25e-fa77-4b82-ac82-38f8d6aaceff")
+		)
+		(instances
+			(project "rp2040-reference-design"
+				(path "/d9eb9251-8b4f-4594-87db-d1b592086b55"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
