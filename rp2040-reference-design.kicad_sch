@@ -3638,12 +3638,28 @@
 		(uuid "399613bc-e008-4842-bfb3-6ec13ae293f7")
 	)
 	(no_connect
+		(at 93.98 111.76)
+		(uuid "481905c0-ba8c-44f9-9a26-5d78af1e1c90")
+	)
+	(no_connect
 		(at 146.05 39.37)
 		(uuid "ac3dfc67-cb29-42ff-be32-345a9c40288e")
 	)
 	(no_connect
+		(at 93.98 116.84)
+		(uuid "b3c52249-2431-4169-8f27-e835c1db74dd")
+	)
+	(no_connect
+		(at 93.98 119.38)
+		(uuid "bd7a9e3b-5109-4232-8cc3-5b83cdc4231a")
+	)
+	(no_connect
 		(at 147.32 175.26)
 		(uuid "e5e744d5-3967-4952-877c-13f0c1cc8563")
+	)
+	(no_connect
+		(at 93.98 114.3)
+		(uuid "fa8f4e31-f0e2-41bd-a39f-41d78400f484")
 	)
 	(wire
 		(pts
@@ -11305,7 +11321,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 168.91 0)
+		(at 86.36 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11314,7 +11330,7 @@
 		(fields_autoplaced yes)
 		(uuid "93b223a6-2d46-4c27-ac82-20a9246978d9")
 		(property "Reference" "#PWR016"
-			(at 86.36 175.26 0)
+			(at 86.36 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11323,7 +11339,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 173.99 0)
+			(at 86.36 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11331,7 +11347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 168.91 0)
+			(at 86.36 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11340,7 +11356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 168.91 0)
+			(at 86.36 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11349,7 +11365,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 168.91 0)
+			(at 86.36 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13298,7 +13314,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 86.36 163.83 90)
+		(at 86.36 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13307,7 +13323,7 @@
 		(fields_autoplaced yes)
 		(uuid "efb3bbbe-0a2d-44c6-ad42-5e3ed98e148d")
 		(property "Reference" "SW2"
-			(at 87.63 162.5599 90)
+			(at 87.63 163.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13316,7 +13332,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 87.63 165.0999 90)
+			(at 87.63 166.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13325,7 +13341,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQP7A"
-			(at 81.28 163.83 0)
+			(at 81.28 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13334,7 +13350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 163.83 0)
+			(at 81.28 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13343,7 +13359,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 86.36 163.83 0)
+			(at 86.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
