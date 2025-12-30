@@ -8984,7 +8984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2071d216-3777-4434-be57-0444533e63ff")
-		(property "Reference" "SW1"
+		(property "Reference" "Reset"
 			(at 124.46 138.4299 90)
 			(effects
 				(font
@@ -9038,7 +9038,7 @@
 		(instances
 			(project ""
 				(path "/d9eb9251-8b4f-4594-87db-d1b592086b55"
-					(reference "SW1")
+					(reference "Reset")
 					(unit 1)
 				)
 			)
@@ -13322,7 +13322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efb3bbbe-0a2d-44c6-ad42-5e3ed98e148d")
-		(property "Reference" "SW2"
+		(property "Reference" "Boot"
 			(at 87.63 163.8299 90)
 			(effects
 				(font
@@ -13376,7 +13376,7 @@
 		(instances
 			(project "rp2040-reference-design"
 				(path "/d9eb9251-8b4f-4594-87db-d1b592086b55"
-					(reference "SW2")
+					(reference "Boot")
 					(unit 1)
 				)
 			)

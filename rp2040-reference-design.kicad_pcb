@@ -194,7 +194,7 @@
 	(net 51 "GPIO22")
 	(net 52 "GPIO23")
 	(net 53 "unconnected-(U1-USB_DP-Pad47)")
-	(net 54 "Net-(R6-Pad1)")
+	(net 54 "Net-(Boot1-Pad2)")
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "060e1430-edfa-4399-9999-26393026ae4a")
@@ -1558,7 +1558,7 @@
 		(at 129 111)
 		(descr "Light Touch Switch, 2.2 N, https://www3.panasonic.biz/ac/e_download/control/switch/light-touch/catalog/sw_lt_eng_3529s_side.pdf?f_cd=402906")
 		(tags "tactile switch")
-		(property "Reference" "SW1"
+		(property "Reference" "Reset"
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "adb43ff9-8e86-4e6d-80ba-0f800d142737")
@@ -3196,7 +3196,7 @@
 		(at 118.3 111)
 		(descr "Light Touch Switch, 2.2 N, https://www3.panasonic.biz/ac/e_download/control/switch/light-touch/catalog/sw_lt_eng_3529s_side.pdf?f_cd=402906")
 		(tags "tactile switch")
-		(property "Reference" "SW2"
+		(property "Reference" "Boot"
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "ff9560dc-a4aa-41f9-b695-32ac7bf95218")
@@ -3464,7 +3464,7 @@
 			(size 1.4 1.05)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2380952381)
-			(net 54 "Net-(R6-Pad1)")
+			(net 54 "Net-(Boot1-Pad2)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "b1d2bfea-3ecf-4221-aa36-177cdc4e7877")
@@ -3474,7 +3474,7 @@
 			(size 1.4 1.05)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2380952381)
-			(net 54 "Net-(R6-Pad1)")
+			(net 54 "Net-(Boot1-Pad2)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "5ab6ad9f-2512-42f6-8bad-cff290c9a53f")
@@ -10036,7 +10036,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 54 "Net-(R6-Pad1)")
+			(net 54 "Net-(Boot1-Pad2)")
 			(pintype "passive")
 			(uuid "0d93f457-ea89-4eb7-abf1-3840a5895336")
 		)
