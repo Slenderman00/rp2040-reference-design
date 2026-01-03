@@ -11527,7 +11527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bc0d097-dc23-4a95-be00-17b74ac0af06")
-		(property "Reference" "J1"
+		(property "Reference" "BMDU"
 			(at 152.4 27.94 0)
 			(effects
 				(font
@@ -11603,7 +11603,7 @@
 		(instances
 			(project ""
 				(path "/d9eb9251-8b4f-4594-87db-d1b592086b55"
-					(reference "J1")
+					(reference "BMDU")
 					(unit 1)
 				)
 			)
