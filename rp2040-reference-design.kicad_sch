@@ -8984,7 +8984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2071d216-3777-4434-be57-0444533e63ff")
-		(property "Reference" "Reset"
+		(property "Reference" "Reset1"
 			(at 124.46 138.4299 90)
 			(effects
 				(font
@@ -9038,7 +9038,7 @@
 		(instances
 			(project ""
 				(path "/d9eb9251-8b4f-4594-87db-d1b592086b55"
-					(reference "Reset")
+					(reference "Reset1")
 					(unit 1)
 				)
 			)
@@ -10846,7 +10846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Library:ABRACON ABM8-272-T3"
 			(at 39.37 93.98 0)
 			(effects
 				(font
@@ -11527,7 +11527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bc0d097-dc23-4a95-be00-17b74ac0af06")
-		(property "Reference" "BMDU"
+		(property "Reference" "BMDU1"
 			(at 152.4 27.94 0)
 			(effects
 				(font
@@ -11603,7 +11603,7 @@
 		(instances
 			(project ""
 				(path "/d9eb9251-8b4f-4594-87db-d1b592086b55"
-					(reference "BMDU")
+					(reference "BMDU1")
 					(unit 1)
 				)
 			)
@@ -13322,7 +13322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efb3bbbe-0a2d-44c6-ad42-5e3ed98e148d")
-		(property "Reference" "Boot"
+		(property "Reference" "Boot1"
 			(at 87.63 163.8299 90)
 			(effects
 				(font
@@ -13376,7 +13376,7 @@
 		(instances
 			(project "rp2040-reference-design"
 				(path "/d9eb9251-8b4f-4594-87db-d1b592086b55"
-					(reference "Boot")
+					(reference "Boot1")
 					(unit 1)
 				)
 			)
